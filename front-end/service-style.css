@@ -122,6 +122,12 @@ body {
     height: 30%;
 }
 
+.phoneNumber,
+.email {
+    text-align: center;
+    margin: 5px;
+}
+
 .profilePictures {
     display: block;
     margin-left: auto;
