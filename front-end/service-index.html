@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="service-style.css">
+</head>
+
+<body>
+
+
+    <div class="navigation">
+        <label class="logo">Guard.Me</label>
+        <nav>
+            <ul>
+                <li><a href="home-index.html">Home</a></li>
+                <li><a class="active" href="service-index.html">Services</a></li>
+                <li><a href="joinUs-index.html">Join us</a></li>
+                <li><a href="aboutUs-index.html">About us</a></li>
+                <li><a href="login-index.html">Login</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="introText">
+        <p>
+            Нашите висококвалифицирани и опитни бодигардове са на разположение за
+            краткосрочно или дългосрочно наемане, като осигуряват лична и изпълнителна
+            охрана, охрана на събития и охрана при пътуване.
+            Нашите бодигардове са обучени в комуникация и техники за деескалация, за да разсеят
+            потенциално опасни ситуации, и се ангажират да осигуряват дискретна и професионална
+            защита по всяко време.
+        </p>
+    </div>
+
+    <div class="sortSystem">
+
+        <div class="price">
+            <h2>Цена</h2>
+            <input type="radio" name="price" id="0-50">
+            <label for="0-50" id="0-50"> 0-50лв </label><br>
+            <input type="radio" for="price" name="price" id="50-100">
+            <label for="50-100" id="50-100"> 50-100лв </label><br>
+            <input type="radio" for="price" name="price" id="100-500">
+            <label for="100-500" id="100-500"> 100-500лв </label><br>
+            <input type="radio" for="price" name="price" id="500-1000">
+            <label for="500-1000" id="500-1000"> 500-1000лв</label><br>
+            <input type="radio" for="price" name="price" id="1000+">
+            <label for="1000+" id="1000+"> 1000лв+</label>
+        </div>
+
+        <div class="rating">
+            <h2>Рейтинг</h2>
+            <input type="radio" name="rating" id="1star">
+            <label for="1star"> ★☆☆☆☆ </label><br>
+            <input type="radio" for="rating" name="rating" id="2star">
+            <label for="2star"> ★★☆☆☆ </label><br>
+            <input type="radio" for="rating" name="rating" id="3star">
+            <label for="3star"> ★★★☆☆ </label><br>
+            <input type="radio" for="rating" name="rating" id="4star">
+            <label for="4star"> ★★★★☆ </label><br>
+            <input type="radio" for="rating" name="rating" id="5star">
+            <label for="5star"> ★★★★★ </label>
+        </div>
+
+        <div class="age">
+            <h2>Години</h2>
+            <input type="radio" name="age" id="18-25">
+            <label for="18-25"> 18-25 </label><br>
+            <input type="radio" name="age" id="25-35">
+            <label for="25-35"> 25-35 </label><br>
+            <input type="radio" name="age" id="35-45">
+            <label for="35-45"> 35-45 </label><br>
+            <input type="radio" name="age" id="45-55">
+            <label for="45-55"> 45-55 </label><br>
+            <input type="radio" name="age" id="55+">
+            <label for="55+"> 55+ </label>
+        </div>
+
+    </div>
+
+    <div class="filters">
+        <div id="priceFilter">Цена: няма;</div>
+        <div id="ratingFilter">Рейтинг: няма;</div>
+        <div id="ageFilter">Години: няма;</div>
+    </div>
+
+    <div class="items">
+        <div class="firstLine">
+            <div id="guard1">
+                <img src="images/bodyguard-1.jpg" alt="profile-picture1" class="profilePictures" id="pPicture1">
+                <h2 class="names">Тошо Горилата </h2>
+                <h3 class="stars">★★★★★</h3>
+                <p class="descriptions">Тошо Горилата е 35 годишен бодигард с много опит, бил е личен охрана на
+                    много известни и важни
+                    хора. Професионално поведение и стрикно изпълняване на задачите си. </p>
+                <h4 class="prices">800лв.</h4>
+            </div>
+            <div id="guard2">
+                <img src="images/bodyguard-2.jpg" alt="profile-picture2" class="profilePictures" id="pPicture2">
+                <h2 class="names">Мартин Иванов</h2>
+                <h3 class="stars">★★★★☆</h3>
+                <p class="descriptions">27 годишен, с 5-годишен опит като бодигард на важни хора и охрана на сгради.
+                    Държи се професионално, но също така и човешки. Придържа се към точното изпълнение на работата
+                    си. </p>
+                <h4 class="prices">450лв.</h4>
+            </div>
+            <div id="guard3">
+                <img src="images/bodyguard-3.jpg" alt="profile-picture3" class="profilePictures" id="pPicture3">
+                <h2 class="names">Михаил Прокубата </h2>
+                <h3 class="stars">★★☆☆☆</h3>
+                <p class="descriptions">43 годишен бодигард. Нов в бизнеса, няма много опит с клиенти. Стреми се към
+                    професионално поведение и добро изпълнение на задачата.</p>
+                <h4 class="prices">40лв.</h4>
+            </div>
+        </div>
+        <div class="secondLine">
+            <div id="guard4">
+                <img src="images/bodyguard-4.jpg" alt="profile-picture4" class="profilePictures" id="pPicture4">
+                <h2 class="names">Бен Тен </h2>
+                <h3 class="stars">★★★★★</h3>
+                <p class="descriptions">50 годишен здрав, корав и плешив. Умее да се разправя с проблемни хора много
+                    добре – владее три бойни изкуства. Много опит като бодигард на събития, сгради и известни и важни
+                    хора.</p>
+                <h4 class="prices">1400лв.</h4>
+            </div>
+            <div id="guard5">
+                <img src="images/bodyguard-5.jpg" alt="profile-picture5" class="profilePictures" id="pPicture5">
+                <h2 class="names">Киро Куката </h2>
+                <h3 class="stars">★★★★☆</h3>
+                <p class="descriptions">24 годишен луд и магичен бодигард. Подхвърля неуместни шегички, но иначе се
+                    държи много професионално. Никой няма да посмее да те доближи през деня, а през нощта той ще е като
+                    невидима нинджа, която ще те брани. </p>
+                <h4 class="prices">700лв.</h4>
+            </div>
+            <div id="guard6">
+                <img src="images/bodyguard-6.jpg" alt="profile-picture6" class="profilePictures" id="pPicture6">
+                <h2 class="names">Чавдар Терзийски</h2>
+                <h3 class="stars">★★★☆☆</h3>
+                <p class="descriptions">20 годишен, няма много опит, интересен стил на работа – облича се
+                    непрофесионално, за да изненада хората, които ти мислят злото. Спазва си много добре задачата.</p>
+                <h4 class="prices">70лв.</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="home-index.html">Home</a><br>
+            <a href="service-index.html">Services</a><br>
+            <a href="joinUs-index.html">Join us</a><br>
+            <a href="aboutUs-index.html">Abous us</a>
+        </div>
+        <div class="col-2">
+            <h3>CONTACTS</h3>
+            <a href="https://www.instagram.com/guardme_2023/">instagram.com</a><br>
+            <a href="https://www.youtube.com/channel/UCi7H_AQ_i8D6Qd523k-qEMw/">youtube.com</a><br>
+            <a href="">guardme2023@gmail.com</a>
+        </div>
+    </div>
+
+    <script src="service-script.js"></script>
+</body>
+
+</html>
