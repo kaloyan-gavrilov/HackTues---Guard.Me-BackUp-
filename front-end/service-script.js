@@ -16,10 +16,10 @@ let guard4 = new Bodyguard(Бен_Тен, 50, 5, 1400);
 let guard5 = new Bodyguard(Киро_Куката, 24, 4, 700);
 let guard6 = new Bodyguard(Чавдар_Терзийски, 20, 4, 250);
 
-
-document.getElementById("0-50").checked = function () {
-    document.getElementById("priceFilters").innerHTML = "Цена: 0-50лв;";
-    console.log("sdadsa");
-}
+//sistemata shte promenq filtur poleto pri natisnat radio button
+// document.getElementById("0-50").checked = function () {
+//     document.getElementById("priceFilters").innerHTML = "Цена: 0-50лв;";
+//     console.log("sdadsa");
+// }
 
 
